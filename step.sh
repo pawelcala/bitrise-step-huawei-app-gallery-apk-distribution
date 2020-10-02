@@ -12,7 +12,7 @@ FILENAME_TO_UPLOAD="${huawei_filename}"
 FILE_EXT="${file_path##*.}"
 
 printf "File path is: ${file_path}\n"
-printf "Lang is: ${LANG}"
+printf "Lang is: ${LANG}\n"
 printf "File extension is ${FILE_EXT}"
 
 printf "\n\nObtaining a Token\n"
